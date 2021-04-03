@@ -25,6 +25,7 @@ export type MediaValues = Record<
 	| "inverted-colors"
 	| "pointer"
 	| "prefers-contrast"
+	| "prefers-color-scheme"
 	| "prefers-reduced-data"
 	| "prefers-reduced-motion"
 	| "prefers-reduced-transparency",
