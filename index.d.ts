@@ -27,8 +27,8 @@ export type MediaValues = Record<
 	| "prefers-contrast"
 	| "prefers-reduced-data"
 	| "prefers-reduced-motion"
-	| "prefers-reduced-transparency"
-	| unknown
+	| "prefers-reduced-transparency",
+	unknown
 >;
 
 export function match(query: string, values: Partial<MediaValues>): boolean;
